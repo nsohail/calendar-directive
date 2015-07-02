@@ -1,0 +1,32 @@
+/* your css code goes here */
+
+.calendar {
+	width: 1036px;
+	overflow: auto;
+	margin: auto;
+	border: 1px solid;
+}
+
+.calendar-block {
+	float: left;
+    width: 116px;
+    border: 1px solid;
+    height: 108px;
+    padding: 15px;
+}
+
+.day {
+	float: left;
+  width: 148px;
+  text-align: center;
+}
+
+.days {
+	  width: 1036px;
+  overflow: auto;
+  margin: auto;
+}
+
+.delineated {
+	background: rgb(223, 242, 255);
+}

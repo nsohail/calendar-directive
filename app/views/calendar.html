@@ -1,0 +1,14 @@
+<div class="days">
+	<div class="day">Sun</div>
+	<div class="day">Mon</div>
+	<div class="day">Tues</div>
+	<div class="day">Wed</div>
+	<div class="day">Thurs</div>
+	<div class="day">Fri</div>
+	<div class="day">Sat</div>
+</div>
+<div class="calendar">
+	<div class="calendar-block" ng-repeat="day in calendarRange.days" ng-class="{delineated:day.month != currentMonth}">
+		{{day.day}}
+	</div>
+</div>

@@ -1,0 +1,11 @@
+<select ng-model="currentMonth" ng-change="updateCalendar()">
+	<option ng-repeat="month in months" value="{{$index}}" ng-selected="$index == {{currentMonth}}">{{ month }}</option>
+</select>
+
+{{month}}
+
+<select ng-model="currentYear" ng-change="updateCalendar()">
+	<option ng-repeat="year in years" value="{{year}}" ng-selected="year == {{currentYear}}">{{ year }}</option>
+</select>
+
+{{year}}
